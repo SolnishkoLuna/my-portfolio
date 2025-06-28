@@ -3,9 +3,159 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>My Poptfolio</title>
 </head>
 <body>
+
+    <header  id="home">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="text-bg">
+        <h1 id="head_h1">Hello World!</h1>
+        <span class="star" style="top: 10%; left: 20%; animation-delay: 0s;"></span>
+        <span class="star" style="top: 30%; left: 80%; animation-delay: 1s;"></span>
+        <span class="star" style="top: 70%; left: 40%; animation-delay: 1.5s;"></span>
+        <span class="star" style="top: 50%; left: 60%; animation-delay: 0.5s;"></span>
+        <span class="star" style="top: 20%; left: 50%; animation-delay: 2s;"></span>
+        <span class="star" style="top: 15%; left: 35%; animation-delay: 2.5s;"></span>
+        <span class="star" style="top: 40%; left: 10%; animation-delay: 3s;"></span>
+
+        <p id="head_p">I’m Natali Ichkitidze — a passionate beginner full-stack developer.<br> I create clean, responsive, and modern websites using the latest technologies.</p>
+        </div>
+    </header>
+    <hr id="dividerfoot">
+    <main>
+        <div class="projects">
+            <h1 id="project_text">Projects</h1>
+            <div class="project1_2">
+          
+              <div id="project1" data-aos="fade-right" data-aos-duration="4200" data-aos-easing="ease-out-cubic">
+                <h1><a href="#">Project 1</a></h1>
+                <p>A responsive and modern website built with HTML, CSS, and JavaScript.</p>
+              </div>
+          
+              <div id="project2" data-aos="fade-left" data-aos-duration="4200" data-aos-easing="ease-out-cubic">
+                <h1><a href="#">Project 2</a></h1>
+                <p>An interactive web project showcasing animations and smooth user experience.</p>
+              </div>
+          
+            </div>
+          </div>
+
+          <hr class="divider">
+
+          <div class="about">
+            <div class="about-container">
+          
+              <div class="education-box" data-aos="fade-right">
+                <div class="section-title-wrapper">
+                    <h3 class="section-title" data-aos="zoom-in">Education</h3>
+
+                    <span class="star" style="top: -25px; left: -40px; animation-delay: 0s;"></span>
+                    <span class="star" style="top: -35px; left: 60%; animation-delay: 0.3s;"></span>
+                    <span class="star" style="top: 10px; right: -30px; animation-delay: 0.5s;"></span>
+                    <span class="star" style="top: 40px; left: -20px; animation-delay: 0.7s;"></span>
+                    <span class="star" style="top: 60px; right: -10px; animation-delay: 1s;"></span>
+                    <span class="star" style="top: -10px; left: 40%; animation-delay: 1.4s;"></span>
+                  </div>
+
+                <div class="scroll-box">
+                  <div>Cisco Network Courses</div>
+                  <div>Georgian American University</div>
+                  <div>SCSA Cybersecurity Courses</div>
+                  <div>Udemy: Full-Stack Development</div>
+                  <div>Frontend от Google</div>
+                  <div>HTML Academy: Pro</div>
+                </div>
+              </div>
+          
+              <div class="skills-box" data-aos="fade-left">
+                <div class="section-title-wrapper">
+                    <h3 class="section-title" data-aos="zoom-in">Skills</h3>
+                  
+                    <span class="star" style="top: -25px; left: -40px; animation-delay: 0s;"></span>
+                    <span class="star" style="top: -35px; left: 60%; animation-delay: 0.3s;"></span>
+                    <span class="star" style="top: 10px; right: -30px; animation-delay: 0.5s;"></span>
+                    <span class="star" style="top: 40px; left: -20px; animation-delay: 0.7s;"></span>
+                    <span class="star" style="top: 60px; right: -10px; animation-delay: 1s;"></span>
+                    <span class="star" style="top: -10px; left: 40%; animation-delay: 1.4s;"></span>
+                  </div>
+                <div class="scroll-box">
+                  <div>HTML / CSS</div>
+                  <div>JavaScript</div>
+                  <div>Figma</div>
+                  <div>Git / GitHub</div>
+                  <div>Responsive Design</div>
+                  <div>AI tools (ChatGPT, Midjourney)</div>
+                  <div>C++ Basics</div>
+                </div>
+              </div>
+          
+            </div>
+          </div>
+          
+
+          <hr class="divider">
+
+          <div class="contact">
+            <div class="contact-container">
+              <div class="section-title-wrapper">
+                <h2 class="section-title">Contact me</h2>
     
+                <span class="star" style="top: -20px; left: -30px; animation-delay: 0s;"></span>
+                <span class="star" style="top: -30px; left: 50%; animation-delay: 0.2s;"></span>
+                <span class="star" style="top: 0px; right: -25px; animation-delay: 0.5s;"></span>
+                <span class="star" style="top: 50px; left: 20%; animation-delay: 0.7s;"></span>
+                <span class="star" style="top: 70px; right: -10px; animation-delay: 1s;"></span>
+              </div>
+          
+              <form action="https://formspree.io/f/xwpbawnr" method="POST" class="contact-form">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <textarea name="message" rows="5" placeholder="Enter your message" required></textarea>
+                <button type="submit">Send</button>
+              </form>
+            </div>
+          </div>
+    </main>
+    <hr id="dividerfoot">
+
+    <footer class="footer">
+        <div class="footer-overlay">
+          <div class="footer-content">
+            <h3>Find me here</h3>
+            <div class="social-icons">
+              <a href="mailto:ichkitidzenatali@gmail.com" target="_blank">
+                <img src="images/png-transparent-computer-icons-email-icon-design-email-miscellaneous-angle-rectangle-thumbnail.png" alt="Email">
+              </a>
+              <a href="https://github.com/SolnishkoLuna" target="_blank">
+                <img src="images/GitHub.png" alt="GitHub">
+              </a>
+              <a href="https://t.me/your_username" target="_blank">
+                <img src="images/telegram.png" alt="Telegram">
+              </a>
+              <a href="https://linkedin.com/in/yourprofile" target="_blank">
+                <img src="images/linkedin.png" alt="LinkedIn">
+              </a>
+            </div>
+            <p>&copy; 2025 Natali Ichkitidze. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+      
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+
 </body>
 </html>

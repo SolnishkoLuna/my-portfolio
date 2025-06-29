@@ -536,4 +536,22 @@ header {
     transform: scale(1.2);
     filter: drop-shadow(0 0 8px rgba(255, 255, 255, 1));
   }
+  .floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999; /* чтобы была поверх всех */
+    background-color: rgba(0, 0, 0, 0.6); /* полупрозрачная */
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 15px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+  }
+  
+  .floating-button:hover {
+    opacity: 0.8;
+  }
   

@@ -14,9 +14,9 @@
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
         <div class="text-bg">
@@ -34,7 +34,7 @@
     </header>
     <hr id="dividerfoot">
     <main>
-        <div class="projects">
+        <div class="projects" id="projects">
             <h1 id="project_text">Projects</h1>
             <div class="project1_2">
           
@@ -53,7 +53,7 @@
 
           <hr class="divider">
 
-          <div class="about">
+          <div class="about"  id="about">
             <div class="about-container">
           
               <div class="education-box" data-aos="fade-right">
@@ -106,7 +106,7 @@
 
           <hr class="divider">
 
-          <div class="contact">
+          <div class="contact" id="contact">
             <div class="contact-container">
               <div class="section-title-wrapper">
                 <h2 class="section-title">Contact me</h2>
@@ -128,8 +128,7 @@
           </div>
     </main>
     <hr id="dividerfoot">
-
-    <footer class="footer">
+    <button class="floating-button" onclick="scrollToTop()">↑</button>    <footer class="footer">
         <div class="footer-overlay">
           <div class="footer-content">
             <h3>Find me here</h3>
@@ -155,6 +154,12 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
     AOS.init();
+    function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth' 
+    });
+  }
     </script>
 
 </body>
